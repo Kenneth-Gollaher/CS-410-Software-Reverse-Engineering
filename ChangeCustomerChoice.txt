@@ -1,0 +1,50 @@
+ChangeCustomerChoice
+
+Dump of assembler code for function _Z20ChangeCustomerChoicev:
+    <+0>:     push   %rbp
+    <+1>:     mov    %rsp,%rbp
+    <+4>:     lea    0x346(%rip),%rsi        # 0x5555555555c8
+    <+11>:    lea    0x200e17(%rip),%rdi        # 0x5555557560a0 <_ZSt4cout@@GLIBCXX_3.4>
+    <+18>:    callq  0x555555554c90 <_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@plt>
+    <+23>:    lea    0x201063(%rip),%rsi        # 0x5555557562f8 <changechoice>
+    <+30>:    lea    0x200f24(%rip),%rdi        # 0x5555557561c0 <_ZSt3cin@@GLIBCXX_3.4>
+    <+37>:    callq  0x555555554c60 <_ZNSirsERi@plt>
+    <+42>:    lea    0x358(%rip),%rsi        # 0x555555555600
+    <+49>:    lea    0x200df1(%rip),%rdi        # 0x5555557560a0 <_ZSt4cout@@GLIBCXX_3.4>
+    <+56>:    callq  0x555555554c90 <_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@plt>
+    <+61>:    lea    0x201041(%rip),%rsi        # 0x5555557562fc <newservice>
+    <+68>:    lea    0x200efe(%rip),%rdi        # 0x5555557561c0 <_ZSt3cin@@GLIBCXX_3.4>
+    <+75>:    callq  0x555555554c60 <_ZNSirsERi@plt>
+    <+80>:    mov    0x20102b(%rip),%eax        # 0x5555557562f8 <changechoice>
+    <+86>:    cmp    $0x1,%eax
+    <+89>:    jne    0x5555555552e0 <_Z20ChangeCustomerChoicev+105>
+    <+91>:    mov    0x201024(%rip),%eax        # 0x5555557562fc <newservice>
+    <+97>:    mov    %eax,0x200d82(%rip)        # 0x555555756060 <num1>
+    <+103>:   jmp    0x555555555342 <_Z20ChangeCustomerChoicev+203>
+    <+105>:   mov    0x201012(%rip),%eax        # 0x5555557562f8 <changechoice>
+    <+111>:   cmp    $0x2,%eax
+    <+114>:   jne    0x5555555552f9 <_Z20ChangeCustomerChoicev+130>
+    <+116>:   mov    0x20100b(%rip),%eax        # 0x5555557562fc <newservice>
+    <+122>:   mov    %eax,0x200d6d(%rip)        # 0x555555756064 <num2>
+    <+128>:   jmp    0x555555555342 <_Z20ChangeCustomerChoicev+203>
+    <+130>:   mov    0x200ff9(%rip),%eax        # 0x5555557562f8 <changechoice>
+    <+136>:   cmp    $0x3,%eax
+    <+139>:   jne    0x555555555312 <_Z20ChangeCustomerChoicev+155>
+    <+141>:   mov    0x200ff2(%rip),%eax        # 0x5555557562fc <newservice>
+    <+147>:   mov    %eax,0x200d58(%rip)        # 0x555555756068 <num3>
+    <+153>:   jmp    0x555555555342 <_Z20ChangeCustomerChoicev+203>
+    <+155>:   mov    0x200fe0(%rip),%eax        # 0x5555557562f8 <changechoice>
+    <+161>:   cmp    $0x4,%eax
+    <+164>:   jne    0x55555555532b <_Z20ChangeCustomerChoicev+180>
+    <+166>:   mov    0x200fd9(%rip),%eax        # 0x5555557562fc <newservice>
+    <+172>:   mov    %eax,0x200d43(%rip)        # 0x55555575606c <num4>
+    <+178>:   jmp    0x555555555342 <_Z20ChangeCustomerChoicev+203>
+    <+180>:   mov    0x200fc7(%rip),%eax        # 0x5555557562f8 <changechoice>
+    <+186>:   cmp    $0x5,%eax
+    <+189>:   jne    0x555555555342 <_Z20ChangeCustomerChoicev+203>
+    <+191>:   mov    0x200fc0(%rip),%eax        # 0x5555557562fc <newservice>
+    <+197>:   mov    %eax,0x200d2e(%rip)        # 0x555555756070 <num5>
+    <+203>:   nop
+    <+204>:   pop    %rbp
+    <+205>:   retq   
+End of assembler dump.

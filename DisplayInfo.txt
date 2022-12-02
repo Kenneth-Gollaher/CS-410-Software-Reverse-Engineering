@@ -1,0 +1,112 @@
+DisplayInfo
+
+Dump of assembler code for function _Z11DisplayInfov:
+    <+0>:     push   %rbp
+    <+1>:     mov    %rsp,%rbp
+    <+4>:     lea    0x4c2(%rip),%rsi        # 0x555555555558
+    <+11>:    lea    0x201003(%rip),%rdi        # 0x5555557560a0 <_ZSt4cout@@GLIBCXX_3.4>
+    <+18>:    callq  0x555555554c90 <_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@plt>
+    <+23>:    mov    %rax,%rdx
+    <+26>:    mov    0x200f24(%rip),%rax        # 0x555555755fd0
+    <+33>:    mov    %rax,%rsi
+    <+36>:    mov    %rdx,%rdi
+    <+39>:    callq  0x555555554ca0 <_ZNSolsEPFRSoS_E@plt>
+    <+44>:    lea    0x4de(%rip),%rsi        # 0x55555555559c
+    <+51>:    lea    0x200fdb(%rip),%rdi        # 0x5555557560a0 <_ZSt4cout@@GLIBCXX_3.4>
+    <+58>:    callq  0x555555554c90 <_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@plt>
+    <+63>:    lea    0x200f3f(%rip),%rsi        # 0x555555756010 <name1>
+    <+70>:    mov    %rax,%rdi
+    <+73>:    callq  0x555555554c90 <_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@plt>
+    <+78>:    lea    0x4c0(%rip),%rsi        # 0x5555555555a0
+    <+85>:    mov    %rax,%rdi
+    <+88>:    callq  0x555555554c90 <_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@plt>
+    <+93>:    mov    %rax,%rdx
+    <+96>:    mov    0x200f6f(%rip),%eax        # 0x555555756060 <num1>
+    <+102>:   mov    %eax,%esi
+    <+104>:   mov    %rdx,%rdi
+    <+107>:   callq  0x555555554d00 <_ZNSolsEi@plt>
+    <+112>:   mov    %rax,%rdx
+    <+115>:   mov    0x200ecb(%rip),%rax        # 0x555555755fd0
+    <+122>:   mov    %rax,%rsi
+    <+125>:   mov    %rdx,%rdi
+    <+128>:   callq  0x555555554ca0 <_ZNSolsEPFRSoS_E@plt>
+    <+133>:   lea    0x49b(%rip),%rsi        # 0x5555555555b2
+    <+140>:   lea    0x200f82(%rip),%rdi        # 0x5555557560a0 <_ZSt4cout@@GLIBCXX_3.4>
+    <+147>:   callq  0x555555554c90 <_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@plt>
+    <+152>:   lea    0x200ef6(%rip),%rsi        # 0x555555756020 <name2>
+    <+159>:   mov    %rax,%rdi
+    <+162>:   callq  0x555555554c90 <_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@plt>
+    <+167>:   lea    0x467(%rip),%rsi        # 0x5555555555a0
+    <+174>:   mov    %rax,%rdi
+    <+177>:   callq  0x555555554c90 <_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@plt>
+    <+182>:   mov    %rax,%rdx
+    <+185>:   mov    0x200f1a(%rip),%eax        # 0x555555756064 <num2>
+    <+191>:   mov    %eax,%esi
+    <+193>:   mov    %rdx,%rdi
+    <+196>:   callq  0x555555554d00 <_ZNSolsEi@plt>
+    <+201>:   mov    %rax,%rdx
+    <+204>:   mov    0x200e72(%rip),%rax        # 0x555555755fd0
+    <+211>:   mov    %rax,%rsi
+    <+214>:   mov    %rdx,%rdi
+    <+217>:   callq  0x555555554ca0 <_ZNSolsEPFRSoS_E@plt>
+    <+222>:   lea    0x446(%rip),%rsi        # 0x5555555555b6
+    <+229>:   lea    0x200f29(%rip),%rdi        # 0x5555557560a0 <_ZSt4cout@@GLIBCXX_3.4>
+    <+236>:   callq  0x555555554c90 <_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@plt>
+    <+241>:   lea    0x200ead(%rip),%rsi        # 0x555555756030 <name3>
+    <+248>:   mov    %rax,%rdi
+    <+251>:   callq  0x555555554c90 <_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@plt>
+    <+256>:   lea    0x40e(%rip),%rsi        # 0x5555555555a0
+    <+263>:   mov    %rax,%rdi
+    <+266>:   callq  0x555555554c90 <_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@plt>
+    <+271>:   mov    %rax,%rdx
+    <+274>:   mov    0x200ec5(%rip),%eax        # 0x555555756068 <num3>
+    <+280>:   mov    %eax,%esi
+    <+282>:   mov    %rdx,%rdi
+    <+285>:   callq  0x555555554d00 <_ZNSolsEi@plt>
+    <+290>:   mov    %rax,%rdx
+    <+293>:   mov    0x200e19(%rip),%rax        # 0x555555755fd0
+    <+300>:   mov    %rax,%rsi
+    <+303>:   mov    %rdx,%rdi
+    <+306>:   callq  0x555555554ca0 <_ZNSolsEPFRSoS_E@plt>
+    <+311>:   lea    0x3f1(%rip),%rsi        # 0x5555555555ba
+    <+318>:   lea    0x200ed0(%rip),%rdi        # 0x5555557560a0 <_ZSt4cout@@GLIBCXX_3.4>
+    <+325>:   callq  0x555555554c90 <_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@plt>
+    <+330>:   lea    0x200e64(%rip),%rsi        # 0x555555756040 <name4>
+    <+337>:   mov    %rax,%rdi
+    <+340>:   callq  0x555555554c90 <_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@plt>
+    <+345>:   lea    0x3b5(%rip),%rsi        # 0x5555555555a0
+    <+352>:   mov    %rax,%rdi
+    <+355>:   callq  0x555555554c90 <_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@plt>
+    <+360>:   mov    %rax,%rdx
+    <+363>:   mov    0x200e70(%rip),%eax        # 0x55555575606c <num4>
+    <+369>:   mov    %eax,%esi
+    <+371>:   mov    %rdx,%rdi
+    <+374>:   callq  0x555555554d00 <_ZNSolsEi@plt>
+    <+379>:   mov    %rax,%rdx
+    <+382>:   mov    0x200dc0(%rip),%rax        # 0x555555755fd0
+    <+389>:   mov    %rax,%rsi
+    <+392>:   mov    %rdx,%rdi
+    <+395>:   callq  0x555555554ca0 <_ZNSolsEPFRSoS_E@plt>
+    <+400>:   lea    0x39c(%rip),%rsi        # 0x5555555555be
+    <+407>:   lea    0x200e77(%rip),%rdi        # 0x5555557560a0 <_ZSt4cout@@GLIBCXX_3.4>
+    <+414>:   callq  0x555555554c90 <_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@plt>
+    <+419>:   lea    0x200e1b(%rip),%rsi        # 0x555555756050 <name5>
+    <+426>:   mov    %rax,%rdi
+    <+429>:   callq  0x555555554c90 <_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@plt>
+    <+434>:   lea    0x35c(%rip),%rsi        # 0x5555555555a0
+    <+441>:   mov    %rax,%rdi
+    <+444>:   callq  0x555555554c90 <_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@plt>
+    <+449>:   mov    %rax,%rdx
+    <+452>:   mov    0x200e1b(%rip),%eax        # 0x555555756070 <num5>
+    <+458>:   mov    %eax,%esi
+    <+460>:   mov    %rdx,%rdi
+    <+463>:   callq  0x555555554d00 <_ZNSolsEi@plt>
+    <+468>:   mov    %rax,%rdx
+    <+471>:   mov    0x200d67(%rip),%rax        # 0x555555755fd0
+    <+478>:   mov    %rax,%rsi
+    <+481>:   mov    %rdx,%rdi
+    <+484>:   callq  0x555555554ca0 <_ZNSolsEPFRSoS_E@plt>
+    <+489>:   nop
+    <+490>:   pop    %rbp
+    <+491>:   retq   
+End of assembler dump.
