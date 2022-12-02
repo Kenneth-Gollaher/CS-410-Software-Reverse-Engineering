@@ -1,0 +1,48 @@
+assignment4_1-linked.o
+
+Dump of assembler code for function main:
+    <+0>:     push   %rbp
+    <+1>:     mov    %rsp,%rbp
+    <+4>:     sub    $0x10,%rsp
+    <+8>:     movl   $0x1,-0x8(%rbp)
+    <+15>:    cmpl   $0x9,-0x8(%rbp)
+    <+19>:    jg     0x9ad <main+163>
+    <+25>:    movl   $0x1,-0xc(%rbp)
+    <+32>:    cmpl   $0x9,-0xc(%rbp)
+    <+36>:    jg     0x9a4 <main+154>
+    <+38>:    mov    -0x8(%rbp),%eax
+    <+41>:    imul   -0xc(%rbp),%eax
+    <+45>:    mov    %eax,-0x4(%rbp)
+    <+48>:    mov    -0x8(%rbp),%eax
+    <+51>:    mov    %eax,%esi
+    <+53>:    lea    0x2006da(%rip),%rdi        # 0x201020 <_ZSt4cout@@GLIBCXX_3.4>
+    <+60>:    callq  0x7e0 <_ZNSolsEi@plt>
+    <+65>:    lea    0x153(%rip),%rsi        # 0xaa5
+    <+72>:    mov    %rax,%rdi
+    <+75>:    callq  0x7b0 <_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@plt>
+    <+80>:    mov    %rax,%rdx
+    <+83>:    mov    -0xc(%rbp),%eax
+    <+86>:    mov    %eax,%esi
+    <+88>:    mov    %rdx,%rdi
+    <+91>:    callq  0x7e0 <_ZNSolsEi@plt>
+    <+96>:    lea    0x138(%rip),%rsi        # 0xaa9
+    <+103>:   mov    %rax,%rdi
+    <+106>:   callq  0x7b0 <_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@plt>
+    <+111>:   mov    %rax,%rdx
+    <+114>:   mov    -0x4(%rbp),%eax
+    <+117>:   mov    %eax,%esi
+    <+119>:   mov    %rdx,%rdi
+    <+122>:   callq  0x7e0 <_ZNSolsEi@plt>
+    <+127>:   mov    %rax,%rdx
+    <+130>:   mov    0x20063d(%rip),%rax        # 0x200fd0
+    <+137>:   mov    %rax,%rsi
+    <+140>:   mov    %rdx,%rdi
+    <+143>:   callq  0x7c0 <_ZNSolsEPFRSoS_E@plt>
+    <+148>:   addl   $0x1,-0xc(%rbp)
+    <+152>:   jmp    0x92a <main+32>
+    <+154>:   addl   $0x1,-0x8(%rbp)
+    <+158>:   jmpq   0x919 <main+15>
+    <+163>:   mov    $0x0,%eax
+    <+168>:   leaveq 
+    <+169>:   retq   
+End of assembler dump

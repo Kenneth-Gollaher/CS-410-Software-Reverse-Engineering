@@ -1,0 +1,96 @@
+assignment4_3-linked.o
+
+Dump of assembler code for function main:
+    <+0>:     push   %rbp
+    <+1>:     mov    %rsp,%rbp
+    <+4>:     sub    $0x20,%rsp
+    <+8>:     mov    %fs:0x28,%rax
+    <+17>:    mov    %rax,-0x8(%rbp)
+    <+21>:    xor    %eax,%eax
+    <+23>:    movl   $0x1,-0xc(%rbp)
+    <+30>:    lea    0x256(%rip),%rsi        # 0xc35
+    <+37>:    lea    0x20163a(%rip),%rdi        # 0x202020 <_ZSt4cout@@GLIBCXX_3.4>
+    <+44>:    callq  0x860 <_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@plt>
+    <+49>:    mov    %rax,%rdx
+    <+52>:    mov    0x2015db(%rip),%rax        # 0x201fd0
+    <+59>:    mov    %rax,%rsi
+    <+62>:    mov    %rdx,%rdi
+    <+65>:    callq  0x870 <_ZNSolsEPFRSoS_E@plt>
+    <+70>:    lea    -0x18(%rbp),%rax
+    <+74>:    mov    %rax,%rsi
+    <+77>:    lea    0x201732(%rip),%rdi        # 0x202140 <_ZSt3cin@@GLIBCXX_3.4>
+    <+84>:    callq  0x840 <_ZNSirsERi@plt>
+    <+89>:    mov    -0x18(%rbp),%eax
+    <+92>:    sub    $0x1,%eax
+    <+95>:    mov    %eax,-0xc(%rbp)
+    <+98>:    movl   $0x1,-0x10(%rbp)
+    <+105>:   mov    -0x18(%rbp),%eax
+    <+108>:   cmp    %eax,-0x10(%rbp)
+    <+111>:   jg     0xa9d <main+227>
+    <+113>:   movl   $0x1,-0x14(%rbp)
+    <+120>:   mov    -0x14(%rbp),%eax
+    <+123>:   cmp    -0xc(%rbp),%eax
+    <+126>:   jg     0xa53 <main+153>
+    <+128>:   lea    0x209(%rip),%rsi        # 0xc4a
+    <+135>:   lea    0x2015d8(%rip),%rdi        # 0x202020 <_ZSt4cout@@GLIBCXX_3.4>
+    <+142>:   callq  0x860 <_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@plt>
+    <+147>:   addl   $0x1,-0x14(%rbp)
+    <+151>:   jmp    0xa32 <main+120>
+    <+153>:   subl   $0x1,-0xc(%rbp)
+    <+157>:   movl   $0x1,-0x14(%rbp)
+    <+164>:   mov    -0x10(%rbp),%eax
+    <+167>:   add    %eax,%eax
+    <+169>:   sub    $0x1,%eax
+    <+172>:   cmp    %eax,-0x14(%rbp)
+    <+175>:   jg     0xa84 <main+202>
+    <+177>:   lea    0x1da(%rip),%rsi        # 0xc4c
+    <+184>:   lea    0x2015a7(%rip),%rdi        # 0x202020 <_ZSt4cout@@GLIBCXX_3.4>
+    <+191>:   callq  0x860 <_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@plt>
+    <+196>:   addl   $0x1,-0x14(%rbp)
+    <+200>:   jmp    0xa5e <main+164>
+    <+202>:   lea    0x1c3(%rip),%rsi        # 0xc4e
+    <+209>:   lea    0x20158e(%rip),%rdi        # 0x202020 <_ZSt4cout@@GLIBCXX_3.4>
+    <+216>:   callq  0x860 <_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@plt>
+    <+221>:   addl   $0x1,-0x10(%rbp)
+    <+225>:   jmp    0xa23 <main+105>
+    <+227>:   movl   $0x1,-0xc(%rbp)
+    <+234>:   movl   $0x1,-0x10(%rbp)
+    <+241>:   mov    -0x18(%rbp),%eax
+    <+244>:   sub    $0x1,%eax
+    <+247>:   cmp    %eax,-0x10(%rbp)
+    <+250>:   jg     0xb2b <main+369>
+    <+252>:   movl   $0x1,-0x14(%rbp)
+    <+259>:   mov    -0x14(%rbp),%eax
+    <+262>:   cmp    -0xc(%rbp),%eax
+    <+265>:   jg     0xade <main+292>
+    <+267>:   lea    0x17e(%rip),%rsi        # 0xc4a
+    <+274>:   lea    0x20154d(%rip),%rdi        # 0x202020 <_ZSt4cout@@GLIBCXX_3.4>
+    <+281>:   callq  0x860 <_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@plt>
+    <+286>:   addl   $0x1,-0x14(%rbp)
+    <+290>:   jmp    0xabd <main+259>
+    <+292>:   addl   $0x1,-0xc(%rbp)
+    <+296>:   movl   $0x1,-0x14(%rbp)
+    <+303>:   mov    -0x18(%rbp),%eax
+    <+306>:   sub    -0x10(%rbp),%eax
+    <+309>:   add    %eax,%eax
+    <+311>:   sub    $0x1,%eax
+    <+314>:   cmp    %eax,-0x14(%rbp)
+    <+317>:   jg     0xb12 <main+344>
+    <+319>:   lea    0x14c(%rip),%rsi        # 0xc4c
+    <+326>:   lea    0x201519(%rip),%rdi        # 0x202020 <_ZSt4cout@@GLIBCXX_3.4>
+    <+333>:   callq  0x860 <_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@plt>
+    <+338>:   addl   $0x1,-0x14(%rbp)
+    <+342>:   jmp    0xae9 <main+303>
+    <+344>:   lea    0x135(%rip),%rsi        # 0xc4e
+    <+351>:   lea    0x201500(%rip),%rdi        # 0x202020 <_ZSt4cout@@GLIBCXX_3.4>
+    <+358>:   callq  0x860 <_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@plt>
+    <+363>:   addl   $0x1,-0x10(%rbp)
+    <+367>:   jmp    0xaab <main+241>
+    <+369>:   mov    $0x1,%eax
+    <+374>:   mov    -0x8(%rbp),%rcx
+    <+378>:   xor    %fs:0x28,%rcx
+    <+387>:   je     0xb44 <main+394>
+    <+389>:   callq  0x880 <__stack_chk_fail@plt>
+    <+394>:   leaveq 
+    <+395>:   retq   
+End of assembler dump.

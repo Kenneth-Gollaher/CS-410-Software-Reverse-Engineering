@@ -1,0 +1,80 @@
+assignment4_4-linked.o
+
+Dump of assembler code for function main:
+    <+0>:     push   %rbp
+    <+1>:     mov    %rsp,%rbp
+    <+4>:     sub    $0x30,%rsp
+    <+8>:     mov    %fs:0x28,%rax
+    <+17>:    mov    %rax,-0x8(%rbp)
+    <+21>:    xor    %eax,%eax
+    <+23>:    movq   $0x0,-0x20(%rbp)
+    <+31>:    movq   $0x1,-0x18(%rbp)
+    <+39>:    lea    0x201(%rip),%rsi        # 0xc29
+    <+46>:    lea    0x2015f1(%rip),%rdi        # 0x202020 <_ZSt4cout@@GLIBCXX_3.4>
+    <+53>:    callq  0x890 <_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@plt>
+    <+58>:    mov    %rax,%rdx
+    <+61>:    mov    0x201592(%rip),%rax        # 0x201fd0
+    <+68>:    mov    %rax,%rsi
+    <+71>:    mov    %rdx,%rdi
+    <+74>:    callq  0x8a0 <_ZNSolsEPFRSoS_E@plt>
+    <+79>:    lea    -0x28(%rbp),%rax
+    <+83>:    mov    %rax,%rsi
+    <+86>:    lea    0x2016e9(%rip),%rdi        # 0x202140 <_ZSt3cin@@GLIBCXX_3.4>
+    <+93>:    callq  0x870 <_ZNSirsERl@plt>
+    <+98>:    mov    -0x28(%rbp),%rax
+    <+102>:   test   %rax,%rax
+    <+105>:   je     0xaec <main+242>
+    <+111>:   mov    -0x28(%rbp),%rcx
+    <+115>:   movabs $0x6666666666666667,%rdx
+    <+125>:   mov    %rcx,%rax
+    <+128>:   imul   %rdx
+    <+131>:   sar    $0x2,%rdx
+    <+135>:   mov    %rcx,%rax
+    <+138>:   sar    $0x3f,%rax
+    <+142>:   sub    %rax,%rdx
+    <+145>:   mov    %rdx,%rax
+    <+148>:   mov    %rax,-0x10(%rbp)
+    <+152>:   mov    -0x10(%rbp),%rdx
+    <+156>:   mov    %rdx,%rax
+    <+159>:   shl    $0x2,%rax
+    <+163>:   add    %rdx,%rax
+    <+166>:   add    %rax,%rax
+    <+169>:   sub    %rax,%rcx
+    <+172>:   mov    %rcx,%rax
+    <+175>:   mov    %rax,-0x10(%rbp)
+    <+179>:   mov    -0x10(%rbp),%rax
+    <+183>:   imul   -0x18(%rbp),%rax
+    <+188>:   add    %rax,-0x20(%rbp)
+    <+192>:   shlq   -0x18(%rbp)
+    <+196>:   mov    -0x28(%rbp),%rcx
+    <+200>:   movabs $0x6666666666666667,%rdx
+    <+210>:   mov    %rcx,%rax
+    <+213>:   imul   %rdx
+    <+216>:   sar    $0x2,%rdx
+    <+220>:   mov    %rcx,%rax
+    <+223>:   sar    $0x3f,%rax
+    <+227>:   sub    %rax,%rdx
+    <+230>:   mov    %rdx,%rax
+    <+233>:   mov    %rax,-0x28(%rbp)
+    <+237>:   jmpq   0xa5c <main+98>
+    <+242>:   lea    0x155(%rip),%rsi        # 0xc48
+    <+249>:   lea    0x201526(%rip),%rdi        # 0x202020 <_ZSt4cout@@GLIBCXX_3.4>
+    <+256>:   callq  0x890 <_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@plt>
+    <+261>:   mov    %rax,%rdx
+    <+264>:   mov    -0x20(%rbp),%rax
+    <+268>:   mov    %rax,%rsi
+    <+271>:   mov    %rdx,%rdi
+    <+274>:   callq  0x8d0 <_ZNSolsEl@plt>
+    <+279>:   mov    %rax,%rdx
+    <+282>:   mov    0x2014b5(%rip),%rax        # 0x201fd0
+    <+289>:   mov    %rax,%rsi
+    <+292>:   mov    %rdx,%rdi
+    <+295>:   callq  0x8a0 <_ZNSolsEPFRSoS_E@plt>
+    <+300>:   mov    $0x0,%eax
+    <+305>:   mov    -0x8(%rbp),%rsi
+    <+309>:   xor    %fs:0x28,%rsi
+    <+318>:   je     0xb3f <main+325>
+    <+320>:   callq  0x8b0 <__stack_chk_fail@plt>
+    <+325>:   leaveq 
+    <+326>:   retq   
+End of assembler dump.

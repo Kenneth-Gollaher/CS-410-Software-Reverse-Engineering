@@ -1,0 +1,49 @@
+assignment4_2-linked.o
+
+Dump of assembler code for function main:
+    <+0>:     push   %rbp
+    <+1>:     mov    %rsp,%rbp
+    <+4>:     sub    $0x30,%rsp
+    <+8>:     mov    %fs:0x28,%rax
+    <+17>:    mov    %rax,-0x8(%rbp)
+    <+21>:    xor    %eax,%eax
+    <+23>:    lea    0x191(%rip),%rsi        # 0xba9
+    <+30>:    lea    0x201601(%rip),%rdi        # 0x202020 <_ZSt4cout@@GLIBCXX_3.4>
+    <+37>:    callq  0x890 <_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@plt>
+    <+42>:    mov    %rax,%rdx
+    <+45>:    mov    0x2015a2(%rip),%rax        # 0x201fd0
+    <+52>:    mov    %rax,%rsi
+    <+55>:    mov    %rdx,%rdi
+    <+58>:    callq  0x8a0 <_ZNSolsEPFRSoS_E@plt>
+    <+63>:    lea    -0x14(%rbp),%rax
+    <+67>:    mov    %rax,%rsi
+    <+70>:    lea    0x2016f9(%rip),%rdi        # 0x202140 <_ZSt3cin@@GLIBCXX_3.4>
+    <+77>:    callq  0x870 <_ZNSirsERi@plt>
+    <+82>:    mov    -0x14(%rbp),%edx
+    <+85>:    mov    -0x14(%rbp),%eax
+    <+88>:    imul   %eax,%edx
+    <+91>:    mov    -0x14(%rbp),%eax
+    <+94>:    imul   %edx,%eax
+    <+97>:    mov    %eax,-0x14(%rbp)
+    <+100>:   mov    -0x14(%rbp),%eax
+    <+103>:   cvtsi2sd %eax,%xmm0
+    <+107>:   movsd  0x15b(%rip),%xmm1        # 0xbc8
+    <+115>:   mulsd  %xmm1,%xmm0
+    <+119>:   movsd  %xmm0,-0x10(%rbp)
+    <+124>:   lea    0x13a(%rip),%rsi        # 0xbb7
+    <+131>:   lea    0x20159c(%rip),%rdi        # 0x202020 <_ZSt4cout@@GLIBCXX_3.4>
+    <+138>:   callq  0x890 <_ZStlsISt11char_traitsIcEERSt13basic_ostreamIcT_ES5_PKc@plt>
+    <+143>:   mov    %rax,%rdx
+    <+146>:   mov    -0x10(%rbp),%rax
+    <+150>:   mov    %rax,-0x28(%rbp)
+    <+154>:   movsd  -0x28(%rbp),%xmm0
+    <+159>:   mov    %rdx,%rdi
+    <+162>:   callq  0x8d0 <_ZNSolsEd@plt>
+    <+167>:   mov    $0x0,%eax
+    <+172>:   mov    -0x8(%rbp),%rcx
+    <+176>:   xor    %fs:0x28,%rcx
+    <+185>:   je     0xaba <main+192>
+    <+187>:   callq  0x8b0 <__stack_chk_fail@plt>
+    <+192>:   leaveq 
+    <+193>:   retq   
+End of assembler dump.
